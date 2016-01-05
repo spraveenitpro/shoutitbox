@@ -3,7 +3,7 @@
 <?php
 
     //Create Select Query
-    $query = "SELECT * FROM shouts";
+    $query = "SELECT * FROM shouts order by id DESC";
     $shouts = mysqli_query($con, $query);
 
 
